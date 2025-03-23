@@ -3,7 +3,7 @@
 ### Combining Rule Sets
 ```bash
 # For a React project, combine these rules:
-cat cursor-rules/global/core.json cursor-rules/js/base.json cursor-rules/react/base.json > .cursor/rules.json
+cat cursor-rules/global/core.mdc cursor/rules/js.json cursor/rules/react.mdc
 ```
 
 ### Customizing Rules
