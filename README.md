@@ -8,7 +8,6 @@ cat cursor-rules/global/core.mdc cursor/rules/js.json cursor/rules/react.mdc
 
 ### Customizing Rules
 ```json
-// Example of extending a rule set
 {
   "includes": ["../../cursor-rules/global/core.json"],
   "rules": {
