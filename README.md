@@ -11,7 +11,6 @@ cat cursor-rules/global/core.mdc cursor/rules/js.json cursor/rules/react.mdc
 {
   "includes": ["../../cursor-rules/global/core.json"],
   "rules": {
-    // Your custom rules or overrides
     "maxFunctionLength": 20
   }
 }
