@@ -6,6 +6,14 @@
 cat cursor-rules/global/core.mdc cursor/rules/js.json cursor/rules/react.mdc
 ```
 
+### Setting Up Symbolic Links
+```bash
+# Create a symbolic link to use centralized rules across projects
+rm -rf your-project/.cursor/rules && ln -sf path/to/cursor-rules/rules your-project/.cursor/
+```
+
+This allows you to maintain a single source of truth for your Cursor rules. Any updates to the centralized rules repository will automatically be available to all linked projects.
+
 ### Customizing Rules
 ```json
 {
